@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfitActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="200px">
+        <TextView
+            android:id="@+id/d1"
+            android:layout_width="400px"
+            android:layout_height="100px"
+            android:textColorHint="#8B3F51B5"
+            android:hint="Choose Start Date"
+            android:layout_marginTop="25px"
+            android:layout_marginEnd="25px"
+            android:padding="20px"
+            android:background="@drawable/edittextbackground">
+        </TextView>
+
+        <Button
+            android:id="@+id/btnd1"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="10px"
+            android:drawableLeft="@drawable/ic_baseline_calendar_today_24"></Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" >
+        <TextView
+            android:id="@+id/d2"
+            android:layout_width="400px"
+            android:layout_height="100px"
+            android:textColorHint="#8B3F51B5"
+            android:hint="Choose End Date"
+            android:layout_marginTop="25px"
+            android:layout_marginEnd="25px"
+            android:padding="20px"
+            android:background="@drawable/edittextbackground">
+        </TextView>
+
+        <Button
+            android:id="@+id/btnd2"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="10px"
+            android:drawableLeft="@drawable/ic_baseline_calendar_today_24"></Button>
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnok"
+        android:layout_gravity="center"
+        android:text="SHOW RESULTS"
+        android:backgroundTint="#8B3F51B5"
+        android:background="@drawable/buttonbackground"
+        android:layout_marginTop="40px"
+        android:layout_marginBottom="40px"
+        >
+
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/output"
+        android:text="Income: 130 $"
+        android:layout_gravity="center"
+        android:textSize="40px"
+        android:textColor="#8B3F51B5"
+        android:layout_marginBottom="40px"
+        android:textStyle="bold"
+        android:fontFamily="@font/antic"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/output1"
+        android:text="Expenses: 115 $"
+        android:layout_gravity="center"
+        android:textSize="40px"
+        android:textColor="#8B3F51B5"
+        android:layout_marginBottom="40px"
+        android:textStyle="bold"
+        android:fontFamily="@font/antic"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/output2"
+        android:text="Profit: 15 $"
+        android:layout_gravity="center"
+        android:textSize="40px"
+        android:textColor="#8B3F51B5"
+        android:textStyle="bold"
+        android:fontFamily="@font/antic"
+        ></TextView>
+
+</LinearLayout>

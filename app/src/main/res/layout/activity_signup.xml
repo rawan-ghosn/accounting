@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/acc"
+        android:layout_width="318dp"
+        android:layout_height="203dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70px"
+        android:src="@drawable/acc3">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:fontFamily="@font/lily_script_one"
+        android:text="Here's your first step with us!"
+        android:textColor="#8B3F51B5"
+        android:textSize="40px"
+        android:layout_gravity="center">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/username"
+        android:hint="Username"
+        android:textSize="20dp"
+        android:textColorHint="#8B3F51B5"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="17dp"
+        android:layout_gravity="center"
+        >
+    </EditText>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:textColorHint="#8B3F51B5"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:drawablePadding="17dp"
+        android:layout_gravity="center"
+        >
+    </EditText>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/repassword"
+        android:hint="Confirm Password"
+        android:textSize="20dp"
+        android:textColorHint="#8B3F51B5"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_open_24"
+        android:drawablePadding="17dp"
+        android:layout_gravity="center"
+        >
+    </EditText>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/signup"
+        android:text="register"
+        android:textSize="20dp"
+        android:backgroundTint="#8B3F51B5"
+        android:background="@drawable/buttonbackground"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        >
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/signin"
+        android:text="already have an account? sign in"
+        android:textSize="15dp"
+        android:backgroundTint="#03000000"
+        android:textColor="#8B3F51B5"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"
+        >
+    </Button>
+
+</LinearLayout>

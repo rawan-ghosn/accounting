@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/acc/AndroidStudioProjects/Accounting1/app/src/main/res/drawable-v24/edittextbackground.xml" value="0.132" />
+        <entry key="..\:/Users/acc/AndroidStudioProjects/Accounting1/app/src/main/res/drawable/buttonbackground.xml" value="0.174" />
+        <entry key="..\:/Users/acc/AndroidStudioProjects/Accounting1/app/src/main/res/font/.xml" value="0.109375" />
+        <entry key="..\:/Users/acc/AndroidStudioProjects/Accounting1/app/src/main/res/layout/activity_details_purchase.xml" value="0.22" />
+        <entry key="..\:/Users/acc/AndroidStudioProjects/Accounting1/app/src/main/res/layout/activity_details_sale.xml" value="0.4146620847651776" />
+        <entry key="..\:/Users/acc/AndroidStudioProjects/Accounting1/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Users/acc/AndroidStudioProjects/Accounting1/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/acc/AndroidStudioProjects/Accounting1/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/acc/AndroidStudioProjects/Accounting1/app/src/main/res/layout/activity_profit.xml" value="0.33" />
+        <entry key="..\:/Users/acc/AndroidStudioProjects/Accounting1/app/src/main/res/layout/activity_purchase.xml" value="0.18" />
+        <entry key="..\:/Users/acc/AndroidStudioProjects/Accounting1/app/src/main/res/layout/activity_purchase_adapter.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/acc/AndroidStudioProjects/Accounting1/app/src/main/res/layout/activity_sale.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acc/AndroidStudioProjects/Accounting1/app/src/main/res/layout/activity_sale_adapter.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acc/AndroidStudioProjects/Accounting1/app/src/main/res/layout/activity_signup.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/acc/AndroidStudioProjects/Accounting1/app/src/main/res/layout/activity_start.xml" value="0.33" />
+        <entry key="..\:/Users/acc/AndroidStudioProjects/Accounting1/app/src/main/res/layout/datepicker_layout.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

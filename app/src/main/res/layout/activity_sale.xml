@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaleActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="Sales"
+        android:textColor="#3F51B5"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/antic"
+
+        ></TextView>
+
+    <ListView
+        android:id="@+id/salelv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="230px"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addsale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/salelv"
+        android:layout_alignBottom="@id/salelv"
+        android:layout_marginRight="40px"
+        android:layout_marginBottom="40px"
+        android:backgroundTint="#F83F51B5"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+</RelativeLayout>

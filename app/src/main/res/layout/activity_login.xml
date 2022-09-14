@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/acc"
+        android:layout_width="318dp"
+        android:layout_height="203dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70px"
+        android:src="@drawable/acc1">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:fontFamily="@font/lily_script_one"
+        android:text="Already Have An Account?"
+        android:textColor="#8B3F51B5"
+        android:textSize="40px"
+        android:layout_gravity="center">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/username1"
+        android:hint="Username"
+        android:textSize="20dp"
+        android:textColorHint="#8B3F51B5"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="17dp"
+        android:layout_marginTop="40px"
+        >
+    </EditText>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/password1"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:textColorHint="#8B3F51B5"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:drawablePadding="17dp"
+        >
+    </EditText>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:id="@+id/signin1"
+        android:text="sign in"
+        android:textSize="20dp"
+        android:backgroundTint="#8B3F51B5"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonbackground"
+        >
+    </Button>
+
+    <TextView
+        android:id="@+id/signupbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="New user? Sign up"
+        android:textColor="#8B3F51B5"
+        android:textSize="13dp"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginVertical="150px">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="or sign in with"
+            android:textColor="#8B3F51B5"
+            android:textSize="15dp"
+            >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/facebook"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/facebook" />
+
+            <ImageView
+                android:id="@+id/google"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/google" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsSaleActivity"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgsale1"
+                android:layout_width="400px"
+                android:layout_height="300px"
+                android:layout_gravity="center"
+                android:layout_marginTop="200px"
+                android:src="@drawable/img"
+                />
+
+            <Button
+                android:id="@+id/btnphoto1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8B3F51B5"
+                android:backgroundTint="@color/white"
+                android:text="Take photo"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20px"
+                android:textSize="20px"
+                />
+
+            <LinearLayout
+                android:layout_width="700px"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30px">
+
+                <EditText
+                    android:id="@+id/etname1"
+                    android:layout_width="100px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20px"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:fontFamily="@font/lato_bold"
+                    android:hint="Item Name"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_marginStart="30px">
+
+                <EditText
+                    android:id="@+id/etcolor1"
+                    android:layout_width="100px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20px"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:fontFamily="@font/lato_bold"
+                    android:hint="Item color"
+                    android:inputType="textPersonName" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700px"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30px">
+
+                <EditText
+                    android:id="@+id/etprice1"
+                    android:layout_width="100px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20px"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:fontFamily="@font/lato_bold"
+                    android:hint="Price in $"
+                    android:inputType="numberDecimal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700px"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30px">
+
+                <EditText
+                    android:id="@+id/etquant1"
+                    android:layout_width="100px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20px"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:fontFamily="@font/lato_bold"
+                    android:hint="Quantity"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_marginStart="30px">
+
+                <EditText
+                    android:id="@+id/etclient"
+                    android:layout_width="100px"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="20px"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:fontFamily="@font/lato_bold"
+                    android:hint="Client name"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700px"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30px">
+
+                <EditText
+                    android:id="@+id/etphone1"
+                    android:layout_width="100px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20px"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:fontFamily="@font/lato_bold"
+                    android:hint="Phone number"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_marginStart="30px">
+
+                <EditText
+                    android:id="@+id/etadress1"
+                    android:layout_width="100px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20px"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:fontFamily="@font/lato_bold"
+                    android:gravity="start|top"
+                    android:hint="Client address"
+                    android:inputType="textMultiLine" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_marginStart="30px">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="39dp"
+                    android:textColor="#8B3F51B5"
+                    android:id="@+id/selectdate"
+                    android:text="Select date"
+
+                    android:backgroundTint="@color/white">
+
+                </Button>
+
+                <TextView
+                    android:id="@+id/etdate"
+                    android:layout_width="100px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20px"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:fontFamily="@font/lato_bold"
+                    android:gravity="start|top"
+                    android:hint=""
+                    android:textSize="40px"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700px"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30px">
+
+                <EditText
+                    android:id="@+id/etnotes1"
+                    android:layout_width="100px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20px"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:fontFamily="@font/lato_bold"
+                    android:hint="Additional Notes"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+
+                <Button
+                    android:id="@+id/btnsave1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20px"
+                    android:layout_weight="1"
+                    android:backgroundTint="#8B3F51B5"
+                    android:text="Save"
+                    android:background="@drawable/buttonbackground"/>
+
+                <Button
+                    android:id="@+id/btncancel1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#8B3F51B5"
+                    android:text="Cancel"
+                    android:background="@drawable/buttonbackground"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
