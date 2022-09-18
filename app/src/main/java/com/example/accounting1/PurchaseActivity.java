@@ -1,5 +1,6 @@
 package com.example.accounting1;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +11,9 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -212,5 +216,30 @@ public class PurchaseActivity extends AppCompatActivity implements View.OnClickL
                 Update ( indice );
             }
         }
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
+        MenuInflater inflater=getMenuInflater();
+        inflater.inflate(R.menu.example_menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId())
+        {
+            case R.id.item1:
+                Intent ecr = new Intent(PurchaseActivity.this, LoginActivity.class);
+                startActivity ( ecr );
+                return true;
+            case R.id.item2:
+                return true;
+            case R.id.item3:
+                return true;
+            case R.id.item4:
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
